@@ -9,3 +9,7 @@
     border-bottom: 1px solid #e2e2e2;
     background-color: #fff;
 }
+.image-box .image {
+    width: 50%;
+    box-align: center;
+}
