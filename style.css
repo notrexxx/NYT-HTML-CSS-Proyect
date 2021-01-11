@@ -10,6 +10,9 @@
     background-color: #fff;
 }
 .image-box .image {
-    width: 50%;
+    display: block;
     box-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
