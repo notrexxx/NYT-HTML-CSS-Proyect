@@ -69,3 +69,8 @@ width: 24%;
     height: 319px;    
     margin: 43px auto;
 }
+
+#center-nav {
+    width: 200px;
+    height: 30px;
+}
