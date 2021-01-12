@@ -33,7 +33,8 @@
 }
 
 .two {
-    width: 32%;
+    min-width: 32%;
+    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -120,6 +121,11 @@ p{
 h1{
     margin: auto;
     font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-weight: bold;
     font-style: italic;
+}
+
+.Img-w-description {
+    width: min-content;
+    margin: auto;
 }
