@@ -59,6 +59,7 @@ margin-right: auto;
 
 .container{
 display: flex;
+position: relative;
 justify-content: space-around;
 width:945px;
 height:576px;
@@ -66,11 +67,7 @@ flex-wrap: wrap;
 }
 
 .flex{
-
-  
-font-size: 16px;
-line-height: normal;
-font-size: 0.75rem;
+font-size: 14px;
 line-height: 1rem;
 word-spacing: 1px;
 font-family: arial,helvetica,sans-serif;
@@ -188,5 +185,11 @@ footer{
     background-color: rgb(86, 123, 149);
     border: rgb(50, 104, 145);
     font-family: nyt-franklin, helvica, arial, sans-serif;
+
+}
+
+.image2{
+
+position: absolute;
 
 }
