@@ -137,6 +137,7 @@ h1{
     font-style: italic;
 }
 
+<<<<<<< Updated upstream
 h5{
 font-weight: bold;
 font-family: nyt-imperial, georgia, "times new roman", serif;
@@ -146,4 +147,42 @@ font-family: nyt-imperial, georgia, "times new roman", serif;
 .Img-w-description {
     width: min-content;
     margin: auto;
+=======
+footer{
+    clear: both;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.footer-box{
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-top: 5px solid rgb(211, 209, 209);
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.test1{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 13px;
+    margin: 5px;
+    width: fit-content;
+>>>>>>> Stashed changes
 }
