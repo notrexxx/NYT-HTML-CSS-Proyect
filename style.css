@@ -106,11 +106,12 @@ width: 24%;
 
 .img-subtitle {
     
- 
+    
     font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     line-height: 1rem;
     color: rgb(102, 102, 102);
+    text-decoration: none;
 }
 
 
@@ -156,13 +157,20 @@ footer{
 }
 .footer-box{
     background-color: white;
-    border-top: 5px solid rgb(211, 209, 209);
+    border-top: 3px solid rgb(211, 209, 209);
     display: grid;
     margin-top: 40px;
     grid-template-columns: repeat(7, 1fr);
     line-height: 1rem;
 }
 .footer-title{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer-title2{
+    border-left: 2px solid rgb(211, 209, 209);
     display: flex;
     margin-top: 40px;
     flex-direction: column;
@@ -176,6 +184,7 @@ footer{
     margin: 5px;
     
 }
+
 .copyr{
     display: flex;
     justify-content: space-around;
@@ -188,7 +197,7 @@ footer{
     font-weight: bold;
 }
 
-.btn {
+ .btn  {
     background-color: rgb(86, 123, 149);
     border: rgb(50, 104, 145);
     font-family: nyt-franklin, helvica, arial, sans-serif;
