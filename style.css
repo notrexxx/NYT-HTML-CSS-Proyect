@@ -105,7 +105,9 @@ p{
 
 #spacencos {
     font-family: nyt-franklin, Arial, sans-serif;
-    font-weight: 900;
-    font-size: 14px;
+    font-weight: bolder;
+    font-size: 14.5px;
     color: black;
+    letter-spacing: 0.6px;
+    text-decoration: none;
 }
