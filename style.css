@@ -137,7 +137,7 @@ h1{
     font-style: italic;
 }
 
-<<<<<<< Updated upstream
+
 h5{
 font-weight: bold;
 font-family: nyt-imperial, georgia, "times new roman", serif;
@@ -147,8 +147,8 @@ font-family: nyt-imperial, georgia, "times new roman", serif;
 .Img-w-description {
     width: min-content;
     margin: auto;
-=======
-footer{
+
+.footer {
     clear: both;
     position: relative;
     left: 0;
@@ -158,6 +158,8 @@ footer{
     height: auto;
     background-color: white;
 }
+
+
 .footer-box{
     width: 95%;
     height: 100%;
@@ -184,5 +186,16 @@ footer{
     font-size: 13px;
     margin: 5px;
     width: fit-content;
->>>>>>> Stashed changes
+
+}
+
+.font500 {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(86, 123, 149);
+    border: rgb(50, 104, 145);
+    font-family: nyt-franklin, helvica, arial, sans-serif;
+
 }
