@@ -116,3 +116,10 @@ p{
     text-decoration: none;
     vertical-align: baseline;
 }
+
+h1{
+    margin: auto;
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+}
