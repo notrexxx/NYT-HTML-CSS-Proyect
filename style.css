@@ -96,3 +96,16 @@ width: 24%;
     margin-right: auto;
     
 }
+
+p{
+    font-family: nyt-imperial, georgia, "times new roman", serif;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+#spacencos {
+    font-family: nyt-franklin, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: black;
+}
