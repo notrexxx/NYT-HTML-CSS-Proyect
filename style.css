@@ -18,7 +18,6 @@ width:100%;
 height:100%;
 margin-left: auto;
 margin-right: auto;
-   
 
 }
 .three a{
@@ -105,8 +104,6 @@ width: 24%;
 }
 
 .img-subtitle {
-    
-    
     font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     line-height: 1rem;
@@ -117,6 +114,7 @@ width: 24%;
 
 
 .image-box2 .image2 {
+    position: static;
     display: flex;
     -ms-flex-align: center;
     width:600px;
