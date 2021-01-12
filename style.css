@@ -151,3 +151,8 @@ font-family: nyt-imperial, georgia, "times new roman", serif;
 .font500 {
     font-weight: bold;
 }
+
+.btn {
+    background-color: rgb(86, 123, 149);
+    border: rgb(50, 104, 145);
+}
