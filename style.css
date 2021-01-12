@@ -147,3 +147,7 @@ font-family: nyt-imperial, georgia, "times new roman", serif;
     width: min-content;
     margin: auto;
 }
+
+.font500 {
+    font-weight: 500;
+}
