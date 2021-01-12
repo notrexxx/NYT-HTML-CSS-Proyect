@@ -19,6 +19,10 @@
     
 }
 
+.material-icons{
+    color: black;
+}
+
 .figcaption {
     display: flex;
     -ms-flex-align: start ;
@@ -110,4 +114,5 @@ p{
     color: black;
     letter-spacing: 0.6px;
     text-decoration: none;
+    vertical-align: baseline;
 }
