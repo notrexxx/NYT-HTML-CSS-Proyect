@@ -19,6 +19,12 @@
     
 }
 
+.three a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 .material-icons{
     color: black;
 }
@@ -41,12 +47,7 @@
 .three {
     width: 50%;
     margin: 0 auto;
-    font-size: 16px;
-    line-height: normal;
-    font-size: 0.75rem;
-    line-height: 1rem;
-word-spacing: 1px;
-font-family: arial,helvetica,sans-serif;
+
 }
 
 .container{
@@ -134,6 +135,12 @@ h1{
     font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
+}
+
+h5{
+font-weight: bold;
+font-family: nyt-imperial, georgia, "times new roman", serif;
+    text-align: left;
 }
 
 .Img-w-description {
