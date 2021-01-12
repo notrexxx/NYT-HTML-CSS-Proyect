@@ -40,22 +40,31 @@
 .three {
     width: 50%;
     margin: 0 auto;
+    font-size: 16px;
+    line-height: normal;
+    font-size: 0.75rem;
+    line-height: 1rem;
+word-spacing: 1px;
+font-family: arial,helvetica,sans-serif;
 }
 
 .container{
 display: flex;
 justify-content: space-around;
-font-size: 14px;
-line-height: 17px;
-
-word-spacing: 1px;
-font-family: arial,helvetica,sans-serif;
 width:945px;
 height:576px;
 flex-wrap: wrap;
 }
 
 .flex{
+
+  
+    font-size: 16px;
+    line-height: normal;
+    font-size: 0.75rem;
+    line-height: 1rem;
+word-spacing: 1px;
+font-family: arial,helvetica,sans-serif;
 margin-top: 50px;
 width: 24%; 
 }
@@ -64,6 +73,8 @@ width: 24%;
     margin: 5px auto;
     font-size: 16px;
     line-height: normal;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 
 #ytvideo {
