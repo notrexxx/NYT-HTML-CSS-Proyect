@@ -10,8 +10,8 @@
     background-color: #fff;
 }
 .image-box .image {
-    display: block;
-    box-align: center;
+    display: flex;
+    -ms-flex-align: center;
     width:945px;
     height:531px;
     margin-left: auto;
@@ -19,9 +19,9 @@
     
 }
 
-figcaption {
-   
-    box-align: center;
+.figcaption {
+    display: flex;
+    -ms-flex-align: start ;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -73,4 +73,26 @@ width: 24%;
 #center-nav {
     width: 200px;
     height: 30px;
+}
+
+.img-subtitle {
+    
+ 
+    font-family: helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 0px auto 1em;
+    color: rgb(102, 102, 102);
+}
+
+.image-box2 .image2 {
+    display: flex;
+    -ms-flex-align: center;
+    width:600px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
