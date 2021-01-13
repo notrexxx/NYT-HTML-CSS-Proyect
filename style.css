@@ -177,6 +177,8 @@ footer {
   margin-top: 40px;
   flex-direction: column;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
 }
 
 .foot {
@@ -185,6 +187,15 @@ footer {
   font-size: 13px;
   margin: 5px;
 }
+
+.foot-separator {
+    border-bottom: 2px solid rgb(211, 209, 209);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+  }
 
 .author {
   text-decoration: none;
@@ -225,6 +236,7 @@ h6 {
   font-size: 13px;
 }
 
+<<<<<<< HEAD
 .editors-choice {
   width: 85%;
   margin: 0 auto;
@@ -251,3 +263,11 @@ h6 {
 .moreInSpacediv {
   width: 21%%;
 }
+=======
+.foot-items {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+}
+>>>>>>> 24f864603c9abdba96d313a3ca8ad16bd512d166
