@@ -1,13 +1,13 @@
 .header-nav {
+
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    min-height: 4.5%;
-    padding: 10;
-    border-bottom: 1px solid #e2e2e2;
-    background-color: #fff;
+     width: 100%;
+     min-height: 4.5%;
+     border-bottom: 1px solid #e2e2e2;
+     background-color: #fff;
 }
 
  .image{
@@ -20,6 +20,7 @@
     margin-right: auto;
 
 }
+
 .three a{
     color: black;
     text-decoration: none;
@@ -80,6 +81,13 @@ width: 24%;
     margin: 5px auto;
     font-size: 14px;
  
+    line-height: 1rem;
+}
+
+.inflation-title{
+    font-family:  georgia, "times new roman", serif;
+    margin: 5px auto;
+    font-size: 14px;
     line-height: 1rem;
 }
 
@@ -154,6 +162,7 @@ footer{
     width: 70%;
     margin: 0 auto;
 }
+
 .footer-box{
     border-top: 3px solid rgb(211, 209, 209);
     display: grid;
@@ -162,14 +171,14 @@ footer{
     line-height: 10px
 
 }
+
 .footer-title{
     display: flex;
     margin-top: 40px;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    
 }
+
 .footer-title2{
     border-left: 2px solid rgb(211, 209, 209);
     display: flex;
@@ -183,8 +192,8 @@ footer{
     color: rgb(29, 29, 29);
     font-size: 13px;
     margin: 5px;
-    
 }
+
 .author{
     text-decoration: none;
     color: rgb(29, 29, 29);
@@ -192,6 +201,7 @@ footer{
     font-weight: bold;
     
 }
+
 .copyr{
     display: flex;
     justify-content:space-between;
@@ -200,9 +210,11 @@ footer{
     font-size: 12px;
     
 }
+
 .font500 {
     font-weight: bold;
 }
+
 .image2{
     position: absolute;
 
@@ -217,9 +229,11 @@ footer{
     color: black;
 }
 
+
 .fa-search{
     color: black;
 }
+
 
 h6{
     margin-left: 5px;
