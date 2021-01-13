@@ -251,6 +251,7 @@ h6 {
 }
 
 .sharing-links {
+    align-content: center;
     width: 600px;
     padding-top: 1.25rem;
     border-top: 1px solid #ebebeb;
@@ -291,4 +292,8 @@ h6 {
   
   .moreInSpacediv {
     width: 21%;
+<<<<<<< Updated upstream
   }
+=======
+  }
+>>>>>>> Stashed changes
