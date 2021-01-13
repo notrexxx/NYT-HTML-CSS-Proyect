@@ -247,16 +247,11 @@ h6 {
   display: flex;
   flex-shrink: 0;
   color: #999;
-  margin-right: 12px;
-  width: 75%;
-  align-content: center;
+  margin: 0 auto;
+  width: 600px;
   padding-top: 1.25rem;
   border-top: 1px solid #ebebeb;
   margin-bottom: 10px;
-}
-
-.wrapper{
-  align-content: center;
 }
 
 .sharing-links2 {
@@ -264,7 +259,7 @@ h6 {
   justify-content: space-around;
   flex-shrink: 0;
   color: #999;
-  margin-right: 12px;
+  margin: 0 auto;
   width: 100%;
   align-content: center;
   padding-top: 1.25rem;
