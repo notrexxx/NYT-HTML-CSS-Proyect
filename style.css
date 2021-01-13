@@ -320,3 +320,23 @@ h6 {
   .niceImg {
   width: 100%;
   }
+
+  .mostPopulardiv {
+    border-bottom: 3px solid rgb(211, 209, 209);
+    padding: 15px;
+  }
+
+  .headers {
+    font-family:  nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 18px;
+  }
+
+  .mostPopular h5 {
+    font-size: 20px;
+  }
+  
+  .sectionsName {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+  }
