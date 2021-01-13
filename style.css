@@ -277,11 +277,11 @@ h6 {
     width: 21.25%;
   }
   .moreInSpace {
-    width: 63;
+    width: 63%;
   }
   
-  .editors Picks{
-    width: 75%;
+  .editorsPicks{
+    width:75%;
   }
   
   .moreInSpaceFlex {
@@ -289,11 +289,17 @@ h6 {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .editorsPicksFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   
   .moreInSpacediv {
-    width: 21%;
-<<<<<<< Updated upstream
+    width: 30%;
   }
-=======
+
+  .editorsPickdiv {
+    width: 30%;
   }
->>>>>>> Stashed changes
