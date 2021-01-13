@@ -257,18 +257,18 @@ h6 {
   margin-bottom: 10px;
 }
 .sharing-links2 {
-    display: flex;
-    justify-content: space-around;
-    flex-shrink: 0;
-    color: #999;
-    margin-right: 12px;
-    width: 100%;
-    align-content: center;
-    width: 600px;
-    padding-top: 1.25rem;
-    border-top: 1px solid #ebebeb;
-    margin: 0 auto;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+  color: #999;
+  margin-right: 12px;
+  width: 100%;
+  align-content: center;
+  width: 600px;
+  padding-top: 1.25rem;
+  border-top: 1px solid #ebebeb;
+  margin: 0 auto;
+  margin-bottom: 10px;
   }
 .share-svg {
   display: inline-block;
@@ -286,15 +286,15 @@ h6 {
   }
   
   .mostPopular {
-    float: right;
-    width: 21.25%;
+  float: right;
+  width: 21.25%;
   }
   .moreInSpace {
-    width: 75%;
+  width: 75%;
   }
   
   .editorsPicks{
-    width:75%;
+  width:75%;
   }
   
 .moreInSpaceFlex {
@@ -304,22 +304,19 @@ h6 {
   }
 
   .editorsPicksFlex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   }
   
   .moreInSpacediv {
-    width: 30%;
+  width: 30%;
   }
 
   .editorsPickdiv {
-    width: 30%;
+  width: 30%;
   }
-<<<<<<< HEAD
 
   .niceImg {
-    width: 100%;
+  width: 100%;
   }
-=======
->>>>>>> 304f0b3271a9fe95d9c941af1a3722eb941c7d09
