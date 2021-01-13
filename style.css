@@ -62,6 +62,7 @@ justify-content: space-around;
 width:945px;
 height:576px;
 flex-wrap: wrap;
+margin-bottom: 160px;
 }
 
 .flex{
@@ -69,7 +70,8 @@ font-size: 14px;
 line-height: 1rem;
 word-spacing: 1px;
 font-family: arial,helvetica,sans-serif;
-margin-top: 50px;
+margin-top: 30px;
+
 width: 24%; 
 }
 
