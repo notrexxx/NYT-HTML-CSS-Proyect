@@ -127,13 +127,13 @@ width: 24%;
 }
 
 p{
-    font-family: nyt-imperial, georgia, "times new roman", serif;
+    font-family:  georgia, "times new roman", serif;
     text-align: left;
     font-size: 1.25rem;
 }
 
 #spacencos {
-    font-family: nyt-franklin, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bolder;
     font-size: 14.5px;
     color: black;
@@ -144,7 +144,7 @@ p{
 
 h1{
     margin: auto;
-    font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -197,12 +197,6 @@ footer{
     font-weight: bold;
 }
 
- .btn  {
-    background-color: rgb(86, 123, 149);
-    border: rgb(50, 104, 145);
-    font-family: nyt-franklin, helvica, arial, sans-serif;
-
-}
 
 .image2{
 
