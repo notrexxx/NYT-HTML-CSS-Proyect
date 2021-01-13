@@ -151,22 +151,23 @@ h1{
 footer{
     clear: both;
     position: relative;
-    width: 55%;
+    width: 70%;
     margin: 0 auto;
 }
 .footer-box{
-    background-color: white;
     border-top: 3px solid rgb(211, 209, 209);
     display: grid;
     margin-top: 40px;
     grid-template-columns: repeat(7, 1fr);
-    line-height: 1rem;
+    line-height: 10px
+
 }
 .footer-title{
     display: flex;
     margin-top: 40px;
     flex-direction: column;
     flex-wrap: wrap;
+    
     
 }
 .footer-title2{
@@ -193,7 +194,7 @@ footer{
 }
 .copyr{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     text-decoration: none;
     color: rgb(29, 29, 29);
     font-size: 12px;
