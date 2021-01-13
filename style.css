@@ -181,7 +181,13 @@ footer{
     margin: 5px;
     
 }
-
+.author{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+    font-weight: bold;
+    
+}
 .copyr{
     display: flex;
     justify-content: space-around;
