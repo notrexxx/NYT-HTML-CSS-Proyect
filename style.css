@@ -236,23 +236,6 @@ h6 {
   font-size: 13px;
 }
 
-<<<<<<< HEAD
-.editors-choice {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.mostPopular {
-  float: right;
-  width: 21.25%;
-}
-.moreInSpace {
-  width: 75%;
-}
-
-.editorsPicks{
-  width: 75%;
-=======
 .foot-items {
   display: inline-block;
   height: 13px;
@@ -272,7 +255,6 @@ h6 {
     padding-top: 1.25rem;
     border-top: 1px solid #ebebeb;
     margin: 0 auto;
->>>>>>> 02ae0d6a0184cbe6473fea6ac1f4e5bc340074b2
 }
 .share-svg {
     display: inline-block;
@@ -284,24 +266,6 @@ h6 {
     width: 30px;
 }
 
-<<<<<<< HEAD
-.moreInSpacediv {
-  width: 21%;
-}
-
-.editorsPicksFlex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.foot-items {
-  display: inline-block;
-  height: 13px;
-  width: 13px;
-  margin-right: 7px;
-}
-=======
 .editors-choice {
     width: 85%;
     margin: 0 auto;
@@ -326,6 +290,5 @@ h6 {
   }
   
   .moreInSpacediv {
-    width: 21%%;
+    width: 21%;
   }
->>>>>>> 02ae0d6a0184cbe6473fea6ac1f4e5bc340074b2
