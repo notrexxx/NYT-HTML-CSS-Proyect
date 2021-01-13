@@ -288,13 +288,16 @@ h6 {
   .mostPopular {
   float: right;
   width: 21.25%;
+  border-top: 2px solid black;
   }
   .moreInSpace {
   width: 75%;
+  border-top: 2px solid black;
   }
   
   .editorsPicks{
   width:75%;
+  border-top: 2px solid black;
   }
   
 .moreInSpaceFlex {
