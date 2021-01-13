@@ -277,7 +277,7 @@ h6 {
     width: 21.25%;
   }
   .moreInSpace {
-    width: 63%;
+    width: 75%;
   }
   
   .editorsPicks{
@@ -302,4 +302,8 @@ h6 {
 
   .editorsPickdiv {
     width: 30%;
+  }
+
+  .niceImg {
+    width: 100%;
   }
