@@ -115,7 +115,7 @@
   position: absolute;
 }
 
-.image-box2 .image2{
+.image-box2 .image2 {
   position: static;
   display: flex;
   -ms-flex-align: center;
