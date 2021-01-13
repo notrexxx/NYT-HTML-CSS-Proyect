@@ -224,3 +224,30 @@ h6 {
   color: #121212;
   font-size: 13px;
 }
+
+.editors-choice {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.mostPopular {
+  float: right;
+  width: 21.25%;
+}
+.moreInSpace {
+  width: 63;
+}
+
+.editors Picks{
+  width: 75%;
+}
+
+.moreInSpaceFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.moreInSpacediv {
+  width: 21%%;
+}
