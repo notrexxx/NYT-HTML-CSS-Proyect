@@ -189,13 +189,13 @@ footer {
 }
 
 .foot-separator {
-    border-bottom: 2px solid rgb(211, 209, 209);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-decoration: none;
-    color: rgb(29, 29, 29);
-  }
+  border-bottom: 2px solid rgb(211, 209, 209);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+}
 
 .author {
   text-decoration: none;
@@ -248,14 +248,17 @@ h6 {
   flex-shrink: 0;
   color: #999;
   margin-right: 12px;
-  width: 100%;
+  width: 75%;
   align-content: center;
-  width: 600px;
   padding-top: 1.25rem;
   border-top: 1px solid #ebebeb;
-  margin: 0 auto;
   margin-bottom: 10px;
 }
+
+.wrapper{
+  align-content: center;
+}
+
 .sharing-links2 {
   display: flex;
   justify-content: space-around;
@@ -264,12 +267,11 @@ h6 {
   margin-right: 12px;
   width: 100%;
   align-content: center;
-  width: 600px;
   padding-top: 1.25rem;
   border-top: 1px solid #ebebeb;
-  margin: 0 auto;
   margin-bottom: 10px;
-  }
+}
+
 .share-svg {
   display: inline-block;
   background-color: #eee;
@@ -283,63 +285,64 @@ h6 {
 .editors-choice {
   width: 85%;
   margin: 0 auto;
-  }
-  
-  .mostPopular {
+}
+
+.mostPopular {
   float: right;
   width: 21.25%;
   border-top: 2px solid black;
-  }
-  .moreInSpace {
+}
+
+.moreInSpace {
   width: 75%;
   border-top: 2px solid black;
-  }
-  
-  .editorsPicks{
-  width:75%;
+}
+
+.editorsPicks {
+  width: 75%;
   border-top: 2px solid black;
-  }
-  
+}
+
 .moreInSpaceFlex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  }
+}
 
-  .editorsPicksFlex {
+.editorsPicksFlex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  }
-  
-  .moreInSpacediv {
-  width: 30%;
-  }
+}
 
-  .editorsPickdiv {
+.moreInSpacediv {
   width: 30%;
-  }
+}
 
-  .niceImg {
+.editorsPickdiv {
+  width: 30%;
+}
+
+.niceImg {
   width: 100%;
-  }
+}
 
-  .mostPopulardiv {
-    border-bottom: 3px solid rgb(211, 209, 209);
-    padding: 15px;
-  }
+.mostPopulardiv {
+  border-bottom: 3px solid rgb(211, 209, 209);
+  padding: 15px;
+}
 
-  .headers {
-    font-family:  nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size: 18px;
-  }
+.headers {
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 18px;
+}
 
-  .mostPopular h5 {
-    font-size: 20px;
-  }
-  
-  .sectionsName {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 18px;
-    font-weight: bolder;
-  }
+.mostPopular h5 {
+  font-size: 20px;
+}
+
+.sectionsName {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+}
