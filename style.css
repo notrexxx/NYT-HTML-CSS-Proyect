@@ -96,6 +96,48 @@
   line-height: 1rem;
 }
 
+.editors-pick {
+  position: absolute;
+  left: 1300px;
+  float: right;
+}
+
+.editors-pick h2 {
+  margin: 10px;
+}
+
+.aside-box {
+  width: 250px;
+  display: flex;
+  margin: 10px;
+}
+
+.aside-box h3 {
+  font-family: helvetica, arial, sans-serif;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.aside-box h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 12px;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.aside-box img {
+  width: 75px;
+  margin-right: 10px;
+}
+
 #ytvideo {
   display: flex;
   align-content: center;
