@@ -1,3 +1,24 @@
+p {
+  font-family: georgia, "times new roman", serif;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+h1 {
+  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #121212;
+  max-width: 600px;
+}
+h6 {
+  margin-left: 5px;
+  font-weight: 700;
+  color: #121212;
+  font-size: 13px;
+}
+
 .header-nav {
   position: fixed;
   display: flex;
@@ -144,12 +165,6 @@
   margin-right: auto;
 }
 
-p {
-  font-family: georgia, "times new roman", serif;
-  text-align: left;
-  font-size: 1.25rem;
-}
-
 .spacencos {
   font-family: Arial, sans-serif;
   font-weight: bolder;
@@ -157,15 +172,6 @@ p {
   color: black;
   text-decoration: none;
   margin-left: 10px;
-}
-
-h1 {
-  margin: auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 700;
-  font-style: italic;
-  color: #121212;
-  max-width: 600px;
 }
 
 footer {
@@ -247,13 +253,6 @@ footer {
 
 .fa-search {
   color: black;
-}
-
-h6 {
-  margin-left: 5px;
-  font-weight: 700;
-  color: #121212;
-  font-size: 13px;
 }
 
 .sharing-links {
