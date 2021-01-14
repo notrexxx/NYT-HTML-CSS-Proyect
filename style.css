@@ -301,18 +301,21 @@ h6 {
   border-top: 2px solid black;
 }
 
-.moreInSpace , .editorsPicks {
+.moreInSpace,
+.editorsPicks {
   width: 75%;
   border-top: 2px solid black;
 }
 
-.moreInSpaceFlex , .editorsPicksFlex  {
+.moreInSpaceFlex,
+.editorsPicksFlex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.editorsPickdiv , .moreInSpacediv {
+.editorsPickdiv,
+.moreInSpacediv {
   width: 30%;
 }
 
@@ -335,7 +338,7 @@ h6 {
 }
 
 .sectionsName {
-  font-family:  helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-size: 18px;
   font-weight: bolder;
 }
