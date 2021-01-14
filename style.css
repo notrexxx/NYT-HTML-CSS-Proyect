@@ -52,25 +52,31 @@
 }
 
 .container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-column-start: 1;
   width: 945px;
   height: 576px;
-  flex-wrap: wrap;
-  margin-bottom: 160px;
+  background-image: url(images/inflation-945.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
 }
 
 .flex {
+  width: 100%;
+  height: 100%;
+  margin-top: 140px;
+  font-family: arial,helvetica,sans-serif;
   font-size: 14px;
-  line-height: 1rem;
-  word-spacing: 1px;
-  font-family: arial, helvetica, sans-serif;
-  margin-top: 30px;
-  width: 24%;
+  line-height: 17px;
+  color: #000000;
 }
 
 .inflation {
-  font-family: arial, helvetica, sans-serif;
+  font-family: georgia, "times new roman", serif;
   margin: 5px auto;
   font-size: 14px;
   line-height: 1rem;
@@ -214,11 +220,6 @@ footer {
 
 .font500 {
   font-weight: bold;
-}
-
-.inf-img {
-  margin-top: 50px;
-  width: 100%;
 }
 
 .fa-bars {
