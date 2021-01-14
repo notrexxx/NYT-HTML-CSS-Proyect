@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -18,6 +20,10 @@
     />
     <link rel="shortcut icon" href="images/Symbol-New-York-Times.png" />
     <title>Space Ripples Reveal Big Bang’s Smoking Gun</title>
+
+    
+
+
   </head>
 
   <body>
@@ -40,14 +46,105 @@
             </a>
           </div>
           <div>
-            <a href="#" class="btn btn-secondary">SUBSCRIBE NOW</a>
+            <button id="myBtn" class="btn btn-secondary">SUBSCRIBE</button>
             <a href="#" class="btn btn-secondary">LOG IN</a>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form class="form-horizontal" action="/action_page.php">
+      <div class="form-group" >
+        <label class="control-label col-sm-4" for="username">Name:</label>
+        <div class=" col-md-2 col-md-offset-2">
+          <input type="text" minlength="20" class="form-control" id="username" placeholder="Enter you name here" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email:</label>
+        <div class="col-md-2 col-md-offset-2">
+          <input type="email" minlength="20" class="form-control" id="email" placeholder="Enter email" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="text">Enter your comment:</label>
+        <div class="col-md-4 col-md-offset-4">
+          <textarea  maxlength="250" class="form-control" rows="5" id="comment" placeholder="Place your comments here" required></textarea>
+        </div>
+      </div>
+      <div class="form-group col-md-4 col-md-offset-4">
+        <label class="control-label " for="text">What is your overall opinion about this article?</label>
+        
+      <div class="radio" div class="col-sm-offset-2 col-sm-10">
+        <label><input type="radio" name="optradio" checked>Positive</label>
+      </div>
+      <div class="radio" div class="col-sm-offset-2 col-sm-10">
+        <label><input type="radio" name="optradio">Negative</label>
+      </div>
+      <div class="radio disabled" div class="col-sm-offset-2 col-sm-10">
+        <label><input type="radio" name="optradio">Neutral</label>
+      </div>
+    </div>
+    <div class="form-group">
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Subscribe to the Newsletters</label>
+    </div>
+  </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </form>
+
+
+
+  </div>
+
+</div>
+
+
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
           </div>
         </nav>
       </div>
+
     </header>
 
     <main>
+
       <section class="header-img">
         <br /><br />
         <h1>Space Ripples Reveal Big Bang's <br />Smoking Gun</h1>
