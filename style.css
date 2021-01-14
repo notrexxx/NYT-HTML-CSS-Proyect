@@ -9,29 +9,16 @@
   background-color: #fff;
 }
 
+.center-nav {
+  width: 200px;
+  height: 30px;
+}
+
 .image {
   display: flex;
   -ms-flex-align: center;
   width: 100%;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.three a {
-  color: black;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.material-icons {
-  color: black;
-}
-
-.figcaption {
-  display: flex;
-  -ms-flex-align: start;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,8 +29,16 @@
 }
 
 .three {
-  width: 55%;
-  margin: 0 auto;
+  width: 945px;
+  margin: auto;
+}
+
+.figcaption {
+  display: flex;
+  -ms-flex-align: start;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-img {
@@ -52,39 +47,33 @@
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 10px;
-  grid-column-start: 1;
-  width: 945px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   height: 576px;
+  width: 945px;
+  font-size: 14px;
+  line-height: 15px;
   background-image: url(images/inflation-945.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 40px;
+  word-spacing: 1px;
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .flex {
-  width: 100%;
-  height: 100%;
-  margin-top: 140px;
-  font-family: arial, helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000;
+  margin-top: 135px;
+  width: 24%;
 }
 
-.inflation {
+.flex p {
   font-family: georgia, "times new roman", serif;
-  margin: 5px auto;
+
   font-size: 14px;
   line-height: 1rem;
 }
 
 .inflation-title {
   font-family: georgia, "times new roman", serif;
-  margin: 5px auto;
   font-size: 14px;
   line-height: 1rem;
 }
@@ -96,44 +85,39 @@
   line-height: 1rem;
 }
 
-.editors-pick {
-  position: absolute;
-  left: 1300px;
+#editors-pick {
   float: right;
+  width: 210px;
+  display: grid;
+  justify-self: end;
+  grid-row-end: span 5;
 }
 
-.editors-pick h2 {
-  margin: 10px;
-}
-
-.aside-box {
+.aside {
   width: 250px;
   display: flex;
-  margin: 10px;
+  margin-right: 250px;
 }
 
-.aside-box h3 {
+.aside h3 {
   font-family: helvetica, arial, sans-serif;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(226, 226, 226);
-  margin-bottom: 15px;
-  padding-bottom: 12px;
   font-size: 14px;
   line-height: 14px;
 }
 
-.aside-box h2 {
+.aside h2 {
   font-family: helvetica, arial, sans-serif;
   font-weight: 700;
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding-bottom: 12px;
   font-size: 16px;
   line-height: 14px;
   letter-spacing: 0.02em;
 }
 
-.aside-box img {
+.aside img {
   width: 75px;
   margin-right: 10px;
 }
@@ -144,19 +128,6 @@
   width: 600px;
   height: 319px;
   margin: 10px auto;
-}
-
-.center-nav {
-  width: 200px;
-  height: 30px;
-}
-
-.img-subtitle {
-  font-family: helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1rem;
-  color: rgb(102, 102, 102);
-  text-decoration: none;
 }
 
 .image2 {
@@ -242,7 +213,13 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   text-decoration: none;
-  color: rgb(29, 29, 29);
+}
+
+.foot-items {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
 }
 
 .author {
@@ -277,13 +254,6 @@ h6 {
   font-weight: 700;
   color: #121212;
   font-size: 13px;
-}
-
-.foot-items {
-  display: inline-block;
-  height: 13px;
-  width: 13px;
-  margin-right: 7px;
 }
 
 .sharing-links {
