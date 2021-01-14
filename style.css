@@ -360,14 +360,13 @@ li {
   padding: 0 15%;
 }
 
-form li + li {
+li form li + li {
   margin-top: 1em;
 }
 
 textarea {
   vertical-align: top;
 }
-
 
 .button-form {
   background-color: black;
