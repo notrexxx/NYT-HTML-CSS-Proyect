@@ -341,3 +341,45 @@ footer {
   font-size: 18px;
   font-weight: bolder;
 }
+
+.comments {
+  width: 40%;
+  margin: 2px auto;
+  clear: both;
+  border: 2px solid black;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+textarea{
+  vertical-align: top;
+}
+
+li{
+  padding: 0 15%;
+}
+
+.button-form{
+  background-color: black;
+  color: white;
+  margin-left: 30%;
+  border-radius: 8px;
+}
+
+.form-title{
+  margin: auto;
+  padding: 10px 32%;
+}
+
+.nin{
+  width: 90px;
+}
