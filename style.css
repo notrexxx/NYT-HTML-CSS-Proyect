@@ -356,12 +356,12 @@ ul {
   margin: 0;
 }
 
-form li + li {
-  margin-top: 1em;
-}
-
 li {
   padding: 0 15%;
+}
+
+form li + li {
+  margin-top: 1em;
 }
 
 textarea {
@@ -382,5 +382,4 @@ textarea {
 }
 
 .nin {
-  width: 90px;
-}
+  width: 90px;}
