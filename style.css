@@ -117,7 +117,7 @@ h6 {
 .aside {
   width: 250px;
   display: flex;
-  margin-right: 250px;
+  margin-right: 200px;
 }
 
 .aside h3 {
@@ -145,22 +145,19 @@ h6 {
 
 .ytvideo {
   display: flex;
-  align-content: center;
-  width: 600px;
-  height: 319px;
-  margin: 10px auto;
-}
-
-.image2 {
-  position: absolute;
+  -ms-flex-align: center;
+  width: 100%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image-box2 .image2 {
   position: static;
   display: flex;
   -ms-flex-align: center;
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
