@@ -844,6 +844,40 @@
           </div>
         </div>
       </section>
+      <section>
+        <form class="comments">
+          <h5 class="sectionsName form-title">Leave a Comment</h5>
+          <ul>
+        		<li>
+        		<label class="headers nin" for="name">Name</label>
+        		<input type="text"  id="name" name="first-name"
+        		placeholder="name" required>
+          </li>
+        		<li>
+        		<label class="headers nin" for="mail">Email</label>
+        		<input type="email" id="mail"name="email" placeholder="example@mail.com" required>
+          </li>
+        		<li>
+        		<label class="headers nin" for="comments">Comments</label>
+        		<textarea id="comments" name="Message" placeholder="Type your comment here…" minlength="20" maxlength="250"></textarea>
+          </li>
+        		<li>
+        		<label class="headers" for="scale">How did you find this article?</label>
+        		<select name="Gender">
+        			<option value="male">Positive</option>
+        			<option value="female">Negative</option>
+        			<option value="other">Neutral</option>
+        		</select>
+          </li>
+          <li>
+          <input type="checkbox" name="suscribe" value="suscribe">I want to subscribe to the newsletter
+        </li>
+          <li>
+            <button class="button-form" type="submit" name="submit">Add Comment</button>
+          </li>
+          </ul>
+      	</form>
+      </section>
     </main>
     <footer>
       <div class="footer">
