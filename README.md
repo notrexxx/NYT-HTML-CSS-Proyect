@@ -25,13 +25,13 @@
 
 - GitHub: [@notrexxx](https://github.com/notrexxx)
 - Twitter: [@emigdioleon1](https://twitter.com/emigdioleon1)
-- LinkedIn: [emigdio-leon-689109195](https://linkedin.com/emigdio-leon-689109195)
+- LinkedIn: [Emigdio Leon](https://linkedin.com/emigdio-leon-689109195)
 
 👤 **Author2**
 
 - GitHub: [@disc3110](https://github.com/disc3110)
 - Twitter: [@disc3110](https://twitter.com/disc3110)
-- LinkedIn: [diego-solis-277651184](https://linkedin.com/diego-solis-277651184)
+- LinkedIn: [Diego-Solis](https://linkedin.com/diego-solis-277651184)
 
 ## 🤝 Contributing
 
@@ -45,7 +45,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+The Stand Up Team
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
