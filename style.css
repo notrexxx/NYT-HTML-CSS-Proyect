@@ -12,6 +12,7 @@ h1 {
   color: #121212;
   max-width: 600px;
 }
+
 h6 {
   margin-left: 5px;
   font-weight: 700;
@@ -88,7 +89,6 @@ h6 {
 
 .flex p {
   font-family: georgia, "times new roman", serif;
-
   font-size: 14px;
   line-height: 1rem;
 }
