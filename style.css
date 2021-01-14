@@ -301,33 +301,18 @@ h6 {
   border-top: 2px solid black;
 }
 
-.moreInSpace {
+.moreInSpace , .editorsPicks {
   width: 75%;
   border-top: 2px solid black;
 }
 
-.editorsPicks {
-  width: 75%;
-  border-top: 2px solid black;
-}
-
-.moreInSpaceFlex {
+.moreInSpaceFlex , .editorsPicksFlex  {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.editorsPicksFlex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.moreInSpacediv {
-  width: 30%;
-}
-
-.editorsPickdiv {
+.editorsPickdiv , .moreInSpacediv {
   width: 30%;
 }
 
@@ -350,7 +335,7 @@ h6 {
 }
 
 .sectionsName {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family:  helvetica, arial, sans-serif;
   font-size: 18px;
   font-weight: bolder;
 }
