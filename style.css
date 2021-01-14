@@ -360,26 +360,27 @@ form li + li {
   margin-top: 1em;
 }
 
-textarea{
-  vertical-align: top;
-}
-
-li{
+li {
   padding: 0 15%;
 }
 
-.button-form{
+textarea {
+  vertical-align: top;
+}
+
+
+.button-form {
   background-color: black;
   color: white;
   margin-left: 30%;
   border-radius: 8px;
 }
 
-.form-title{
+.form-title {
   margin: auto;
   padding: 10px 32%;
 }
 
-.nin{
+.nin {
   width: 90px;
 }
