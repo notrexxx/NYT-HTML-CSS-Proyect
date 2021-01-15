@@ -1,0 +1,340 @@
+p {
+  font-family: georgia, "times new roman", serif;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+h1 {
+  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #121212;
+  max-width: 600px;
+}
+
+h6 {
+  margin-left: 5px;
+  font-weight: 700;
+  color: #121212;
+  font-size: 13px;
+}
+
+.header-nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 4.5%;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+}
+
+.center-nav {
+  width: 200px;
+  height: 30px;
+}
+
+.image {
+  display: flex;
+  -ms-flex-align: center;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two {
+  width: 32%;
+  margin: 0 auto;
+}
+
+.three {
+  width: 945px;
+  margin: auto;
+}
+
+.figcaption {
+  display: flex;
+  -ms-flex-align: start;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-img {
+  width: 62%;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 576px;
+  width: 945px;
+  font-size: 14px;
+  line-height: 15px;
+  background-image: url(images/inflation-945.png);
+  word-spacing: 1px;
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.flex {
+  margin-top: 135px;
+  width: 24%;
+}
+
+.flex p {
+  font-family: georgia, "times new roman", serif;
+  font-size: 14px;
+  line-height: 1rem;
+}
+
+.inflation-title {
+  font-family: georgia, "times new roman", serif;
+  font-size: 14px;
+  line-height: 1rem;
+}
+
+.subtitle {
+  margin: 5px auto;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  line-height: 1rem;
+}
+
+#editors-pick {
+  float: right;
+  width: 210px;
+  display: grid;
+  justify-self: end;
+  grid-row-end: span 5;
+}
+
+.aside {
+  width: 250px;
+  display: flex;
+  margin-right: 200px;
+}
+
+.aside h3 {
+  font-family: helvetica, arial, sans-serif;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.aside h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.aside img {
+  width: 75px;
+  margin-right: 10px;
+}
+
+.ytvideo {
+  display: flex;
+  -ms-flex-align: center;
+  width: 100%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-box2 .image2 {
+  position: static;
+  display: flex;
+  -ms-flex-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacencos {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-box {
+  border-top: 3px solid rgb(211, 209, 209);
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(7, 1fr);
+  line-height: 10px;
+}
+
+.footer-title {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-title2 {
+  border-left: 2px solid rgb(211, 209, 209);
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+}
+
+.foot {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 13px;
+  margin: 5px;
+}
+
+.foot-separator {
+  border-bottom: 2px solid rgb(211, 209, 209);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.foot-items {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+}
+
+.author {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.copyr {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 12px;
+}
+
+.font500 {
+  font-weight: bold;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.fa-search {
+  color: black;
+}
+
+.sharing-links {
+  display: flex;
+  flex-shrink: 0;
+  color: #999;
+  margin: 0 auto;
+  width: 600px;
+  padding-top: 1.25rem;
+  border-top: 1px solid #ebebeb;
+  margin-bottom: 10px;
+}
+
+.sharing-links2 {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+  color: #999;
+  margin: 0 auto;
+  width: 100%;
+  align-content: center;
+  padding-top: 1.25rem;
+  border-top: 1px solid #ebebeb;
+  margin-bottom: 10px;
+}
+
+.share-svg {
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  padding: 5px;
+  height: 30px;
+  width: 35px;
+}
+
+.editors-choice {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.mostPopular {
+  float: right;
+  width: 21.25%;
+  border-top: 2px solid black;
+}
+
+.moreInSpace,
+.editorsPicks {
+  width: 75%;
+  border-top: 2px solid black;
+}
+
+.moreInSpaceFlex,
+.editorsPicksFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.editorsPickdiv,
+.moreInSpacediv {
+  width: 30%;
+}
+
+.niceImg {
+  width: 100%;
+}
+
+.mostPopulardiv {
+  border-bottom: 3px solid rgb(211, 209, 209);
+  padding: 15px;
+}
+
+.headers {
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 18px;
+}
+
+.mostPopular h5 {
+  font-size: 20px;
+}
+
+.sectionsName {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+}
